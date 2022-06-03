@@ -1,0 +1,15 @@
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\bin\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.exe
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\bin\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.deps.json
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\bin\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.runtimeconfig.json
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\bin\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.dll
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\bin\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.pdb
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.csproj.AssemblyReference.cache
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.AssemblyInfoInputs.cache
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.AssemblyInfo.cs
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.csproj.CoreCompileInputs.cache
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.dll
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\refint\projet-pain-fourre-au-divers-ingedients.dll
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.pdb
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\projet-pain-fourre-au-divers-ingedients.genruntimeconfig.cache
+C:\Users\Red\Desktop\projet-pain-fourre-au-divers-ingedients\obj\Debug\net6.0\ref\projet-pain-fourre-au-divers-ingedients.dll

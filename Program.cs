@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public static class Program{
+static void Main(string[] args)
+    {
+        OrderingMachine machine = new OrderingMachine();
+        machine.startOrderingMachinService();
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "projet-pain-fourre-au-divers-ingedients/1.0.0": {
+        "runtime": {
+          "projet-pain-fourre-au-divers-ingedients.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projet-pain-fourre-au-divers-ingedients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
