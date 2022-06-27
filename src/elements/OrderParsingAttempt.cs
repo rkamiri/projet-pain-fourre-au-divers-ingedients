@@ -7,4 +7,17 @@ public class OrderParsingAttempt{
         this.order = order;
         this.error = error;
     }
+
+    public override bool Equals(Object obj)
+   {
+      //Check for null and compare run-time types.
+      if ((obj == null) || ! this.GetType().Equals(obj.GetType()))
+      {
+         return false;
+      }
+      else {
+         OrderParsingAttempt test = (OrderParsingAttempt) obj;
+         return (isValid == test.isValid) && (order == test.order) && (error == test.error);
+      }
+   }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {}
+    "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {
+    "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
+        "projectUniqueName": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
         "projectName": "projet-pain-fourre-au-divers-ingedients",
-        "projectPath": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
-        "packagesPath": "C:\\Users\\Red\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\obj\\",
+        "projectPath": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
+        "packagesPath": "C:\\Users\\alexp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Red\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alexp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

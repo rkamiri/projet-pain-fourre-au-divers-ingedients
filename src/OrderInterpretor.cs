@@ -16,16 +16,17 @@ public class OrderInterpretor{
                 amount = int.Parse(splitedOrderSandwich[0]);
                 sandwichId = splitedOrderSandwich[1];
             } 
-            catch(ArgumentNullException e){
+            catch (ArgumentNullException)
+            {
                 return new OrderParsingAttempt(false,null,"Ordered quantity not found !");
             }
-            catch(FormatException e){
+            catch(FormatException){
                 return new OrderParsingAttempt(false,null,splitedOrderSandwich[0] + " is not a valid number !");
             }
-            catch(OverflowException e){
+            catch(OverflowException){
                 return new OrderParsingAttempt(false,null,"An overflow occured !");
             }
-            catch(IndexOutOfRangeException e){
+            catch(IndexOutOfRangeException){
                 return new OrderParsingAttempt(false,null,item + " is not a valid format !");
             }
             if(sandwichesOrdered.ContainsKey(sandwichId)){
