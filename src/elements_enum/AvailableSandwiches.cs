@@ -1,36 +1,36 @@
 public static class AvailableSandwiches {
 
-public static Sandwich JambonBeurre = new Sandwich(
+public static Sandwich JambonBeurre = Sandwich.of(
     "Jambon beurre",
     new IngredientPortion[] {
-        new IngredientPortion(availableIngredients.Pain,1),
-        new IngredientPortion(availableIngredients.Tranche_de_jambon,1),
-        new IngredientPortion(availableIngredients.Beurre,10)
+        IngredientPortion.of(availableIngredients.Pain,1),
+        IngredientPortion.of(availableIngredients.Tranche_de_jambon,1),
+        IngredientPortion.of(availableIngredients.Beurre,10)
     }
     , 
     3.50
 );
-public static Sandwich PouletCrudites = new Sandwich(
+public static Sandwich PouletCrudites = Sandwich.of(
     "Poulet crudités",
     new IngredientPortion[] {
-        new IngredientPortion(availableIngredients.Pain,1),
-        new IngredientPortion(availableIngredients.Oeuf,1),
-        new IngredientPortion(availableIngredients.Tomate,0.5),
-        new IngredientPortion(availableIngredients.Tranche_de_poulet,1),
-        new IngredientPortion(availableIngredients.Mayonnaise,10),
-        new IngredientPortion(availableIngredients.Salade,10)
+        IngredientPortion.of(availableIngredients.Pain,1),
+        IngredientPortion.of(availableIngredients.Oeuf,1),
+        IngredientPortion.of(availableIngredients.Tomate,0.5),
+        IngredientPortion.of(availableIngredients.Tranche_de_poulet,1),
+        IngredientPortion.of(availableIngredients.Mayonnaise,10),
+        IngredientPortion.of(availableIngredients.Salade,10)
     }
     ,
     5.00
 );
-public static Sandwich Dieppois = new Sandwich(
+public static Sandwich Dieppois = Sandwich.of(
     "Dieppois",
     new IngredientPortion[] {
-        new IngredientPortion(availableIngredients.Pain,1),
-        new IngredientPortion(availableIngredients.Thon,50),
-        new IngredientPortion(availableIngredients.Tomate,0.5),
-        new IngredientPortion(availableIngredients.Mayonnaise,10),
-        new IngredientPortion(availableIngredients.Salade,10)
+        IngredientPortion.of(availableIngredients.Pain,1),
+        IngredientPortion.of(availableIngredients.Thon,50),
+        IngredientPortion.of(availableIngredients.Tomate,0.5),
+        IngredientPortion.of(availableIngredients.Mayonnaise,10),
+        IngredientPortion.of(availableIngredients.Salade,10)
     }
     ,
     4.50

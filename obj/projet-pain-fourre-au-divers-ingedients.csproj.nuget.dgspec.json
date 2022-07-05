@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {}
+    "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {
+    "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
+        "projectUniqueName": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
         "projectName": "projet-pain-fourre-au-divers-ingedients",
-        "projectPath": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
-        "packagesPath": "C:\\Users\\alexp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexp\\PROJETPERSO\\projet-pain-fourre-au-divers-ingedients\\obj\\",
+        "projectPath": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\projet-pain-fourre-au-divers-ingedients.csproj",
+        "packagesPath": "C:\\Users\\Red\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Red\\Desktop\\projet-pain-fourre-au-divers-ingedients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Red\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

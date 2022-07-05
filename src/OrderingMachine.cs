@@ -2,11 +2,9 @@ using Xunit;
 public class OrderingMachine{
     private USerInterface userInterface;
     private OrderInterpretor orderInterpretor;
-    private InvoiceGenerator invoiceGenerator;
     public OrderingMachine(){
         this.userInterface = new USerInterface();
         this.orderInterpretor = new OrderInterpretor();
-        this.invoiceGenerator = new InvoiceGenerator();
     }
     private string? askUserCommand(){
         this.userInterface.printTextToUser("Please make your choice !\n");
@@ -28,7 +26,9 @@ public class OrderingMachine{
             if(parsedOrder.isValid){
                 Order? order = parsedOrder.order;
                 if (order is Order valueOforder){
-                    response = this.invoiceGenerator.generateStringifiedFacture(valueOforder);
+                    InvoiceGenerator invoiceGenerator = InvoiceGenerator.of();
+                    Invoice invoice = invoiceGenerator.withOrder(valueOforder).build();
+                    response = invoice.invoice;
                 }
             }else {
                response = parsedOrder.error;

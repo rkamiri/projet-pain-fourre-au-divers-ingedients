@@ -1,8 +1,12 @@
 public class Ingredient{
     public String name { get; }
     public Unity unity { get; }
-    public Ingredient(String name,Unity unity){
+    private Ingredient(String name,Unity unity){
         this.name = name;
         this.unity = unity;
+    }
+
+    public static Ingredient of(String name,Unity unity){
+        return new Ingredient(name, unity);
     }
 }

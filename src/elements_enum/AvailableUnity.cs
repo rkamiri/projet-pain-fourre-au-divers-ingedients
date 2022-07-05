@@ -1,6 +1,6 @@
 public static class AvailableUnity{
-    public static Unity Piece = new Unity("pièce");
-    public static Unity Poid = new Unity("g");
-    public static Unity Tranche = new Unity("tranche");
+    public static Unity Piece = Unity.of("pièce");
+    public static Unity Poid = Unity.of("g");
+    public static Unity Tranche = Unity.of("tranche");
 
 }
