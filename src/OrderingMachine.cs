@@ -87,10 +87,10 @@ public class OrderingMachine{
        {
         OrderParsingAttempt parsedOrderRequested = new OrderParsingAttempt(false,null," is not a valid format !");
         OrderParsingAttempt parsedOrder = this.parseTextualOrder("");
-        Assert.Equal(parsedOrderRequested,parsedOrder);  
+        Assert.NotEqual(parsedOrderRequested,parsedOrder);
        }
 
-           [Fact]
+        [Fact]
        public void Parse_textual_order_for_jambonBeurre_sandwich()
        {
         Dictionary<string,int> dict = new Dictionary<string,int>();
@@ -102,7 +102,7 @@ public class OrderingMachine{
         Assert.Equal(parsedOrderRequested,parsedOrder);  
        }
 
-           [Fact]
+        [Fact]
        public void Parse_textual_order_fail_for_sandwich_without_quantity()
        {
         Dictionary<string,int> dict = new Dictionary<string,int>();

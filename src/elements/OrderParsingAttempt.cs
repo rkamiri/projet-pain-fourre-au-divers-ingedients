@@ -8,7 +8,7 @@ public class OrderParsingAttempt{
         this.error = error;
     }
 
-    public override bool Equals(Object obj)
+      public override bool Equals(Object obj)
    {
       //Check for null and compare run-time types.
       if ((obj == null) || ! this.GetType().Equals(obj.GetType()))
@@ -17,7 +17,19 @@ public class OrderParsingAttempt{
       }
       else {
          OrderParsingAttempt test = (OrderParsingAttempt) obj;
-         return (isValid == test.isValid) && (order == test.order) && (error == test.error);
+         if(order is null){
+            return false;
+         }
+         if(test.order is null){
+            return false;
+         }
+
+         return (isValid == test.isValid) && (order.Equals(test.order)) && (error == test.error);
       }
    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(order);
+    }
 }

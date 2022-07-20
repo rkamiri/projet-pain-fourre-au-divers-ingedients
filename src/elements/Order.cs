@@ -13,12 +13,12 @@ public class Order{
       }
       else {
          Order test = (Order) obj;
-         return (orderedSandwiches == test.orderedSandwiches);
+         return (orderedSandwiches.Count() == test.orderedSandwiches.Count() && !orderedSandwiches.Except(test.orderedSandwiches).Any());
       }
    }
 
-    public override string ToString()
+    public override int GetHashCode()
     {
-        return String.Format(" sandwich : "+this.orderedSandwiches.TryGetValue);
+        return HashCode.Combine(orderedSandwiches);
     }
 }
