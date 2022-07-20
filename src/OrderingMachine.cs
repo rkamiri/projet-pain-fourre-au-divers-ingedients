@@ -29,6 +29,7 @@ public class OrderingMachine{
                     InvoiceGenerator invoiceGenerator = InvoiceGenerator.of();
                     Invoice invoice = invoiceGenerator.withOrder(valueOforder).build();
                     response = invoice.invoice;
+                    this.askUserGenerateInvoiceFile(invoice);
                 }
             }else {
                response = parsedOrder.error;
@@ -36,6 +37,18 @@ public class OrderingMachine{
             this.printTextToUser(response);
         } while(true);
     }
+
+    private void askUserGenerateInvoiceFile(Invoice invoice){
+        this.userInterface.printTextToUser("Would you generate your Invoice at xml or json else none ?\n");
+        switch(this.userInterface.askUser()){
+            case "json": new GenerateJsonInvoiceFile().generateInvoiceFile(invoice);
+                return;
+            case "xml": new GenerateXmlInvoiceFile().generateInvoiceFile(invoice);
+                return;
+            default : return;
+        }
+    }
+
     private void printStartingMessage(){
         this.printTextToUser(
             "Salut !\n" +

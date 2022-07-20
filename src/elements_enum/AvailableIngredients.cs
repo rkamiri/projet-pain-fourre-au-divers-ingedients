@@ -1,11 +1,11 @@
 public static class availableIngredients {
-public static Ingredient Pain = Ingredient.of("pain",AvailableUnity.Piece);
-public static Ingredient Tranche_de_jambon = Ingredient.of("tranche de jambon",AvailableUnity.Tranche);
-public static Ingredient Beurre = Ingredient.of("beurre",AvailableUnity.Poid);
-public static Ingredient Oeuf = Ingredient.of("oeuf",AvailableUnity.Piece);
-public static Ingredient Tomate = Ingredient.of("tomate",AvailableUnity.Piece);
-public static Ingredient Tranche_de_poulet = Ingredient.of("tranche de poulet",AvailableUnity.Tranche);
-public static Ingredient Mayonnaise = Ingredient.of("mayonnaise",AvailableUnity.Poid);
-public static Ingredient Salade = Ingredient.of("salade",AvailableUnity.Poid);
-public static Ingredient Thon = Ingredient.of("thon",AvailableUnity.Poid);
+public static Ingredient Pain = IngredientBuilder.of("pain").Build();
+public static Ingredient Tranche_de_jambon = IngredientBuilder.of("tranche de jambon").WithUnity(AvailableUnity.Tranche).Build();
+public static Ingredient Beurre = IngredientBuilder.of("beurre").WithUnity(AvailableUnity.Poid).Build();
+public static Ingredient Oeuf = IngredientBuilder.of("oeuf").Build();
+public static Ingredient Tomate = IngredientBuilder.of("tomate").Build();
+public static Ingredient Tranche_de_poulet = IngredientBuilder.of("tranche de poulet").WithUnity(AvailableUnity.Tranche).Build();
+public static Ingredient Mayonnaise = IngredientBuilder.of("mayonnaise").WithUnity(AvailableUnity.Poid).Build();
+public static Ingredient Salade = IngredientBuilder.of("salade").WithUnity(AvailableUnity.Poid).Build();
+public static Ingredient Thon = IngredientBuilder.of("thon").WithUnity(AvailableUnity.Poid).Build();
 }
